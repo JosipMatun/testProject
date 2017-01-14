@@ -32,7 +32,7 @@ CREATE TABLE `changelog` (
   `date_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `filename` (`filename`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `changelog` (
 
 LOCK TABLES `changelog` WRITE;
 /*!40000 ALTER TABLE `changelog` DISABLE KEYS */;
-INSERT INTO `changelog` VALUES (1,'ikea','at','sqlscript.sql','prva skripta','ikea_at_20160122_1155146373.sql','2016-01-22 04:55:20'),(2,'ikea','at','sqlscript2.sql','druga skripta','ikea_at_20160122_1156048539.sql','2016-01-22 04:56:10'),(4,'ikea','at','sqlscript3.sql','trecaaa','ikea_at_20160122_1731127182.sql','2016-01-22 10:31:21'),(5,'ikea','at','sqlscript4.sql','cetvrta','ikea_at_20160122_1935164108.sql','2016-01-22 13:35:32'),(6,'ikea','at','sqlscript5.sql','peta','ikea_at_20160124_1519229726.sql','2016-01-24 10:19:33'),(7,'ikea','at','sqlscript5.sql','peta, drugi put','ikea_at_20160124_1647163673.sql','2016-01-24 12:47:47'),(8,'ikea','at','sqlscript5.sql','sedma','ikea_at_20160125_085855874.sql','2016-01-25 05:59:07'),(9,'ikea','at','sqlscript5.sql','skripta za prikaz podataka iz tablice articles','ikea_at_20160126_1237551791.sql','2016-01-26 09:40:16'),(10,'ikea','at','nova_articles.sql','Skripta za kreiranje Articles tablice','ikea_at_20170113_1401274661.sql','2017-01-13 12:01:50'),(11,'ikea','at','psii.sql','Skripta za insertanje clanka o psima','ikea_at_20170114_1148396766.sql','2017-01-14 10:49:33'),(12,'ikea','at','psii.sql','psi drugi put','ikea_at_20170114_120328459.sql','2017-01-14 11:03:39'),(13,'ikea','at','psii.sql','treci put','ikea_at_20170114_1211419679.sql','2017-01-14 11:11:49'),(14,'ikea','at','psii.sql','cetvrti put','ikea_at_20170114_1217038017.sql','2017-01-14 11:17:19'),(15,'ikea','at','psii.sql','peti put','ikea_at_20170114_1219304044.sql','2017-01-14 11:19:53'),(16,'ikea','at','psii.sql','sesti put','ikea_at_20170114_1227171369.sql','2017-01-14 11:27:25'),(17,'ikea','at','psii.sql','Sigurno bez errora','ikea_at_20170114_1301336711.sql','2017-01-14 12:01:47');
+INSERT INTO `changelog` VALUES (1,'ikea','at','sqlscript.sql','prva skripta','ikea_at_20160122_1155146373.sql','2016-01-22 03:55:20'),(2,'ikea','at','sqlscript2.sql','druga skripta','ikea_at_20160122_1156048539.sql','2016-01-22 03:56:10'),(4,'ikea','at','sqlscript3.sql','trecaaa','ikea_at_20160122_1731127182.sql','2016-01-22 09:31:21'),(5,'ikea','at','sqlscript4.sql','cetvrta','ikea_at_20160122_1935164108.sql','2016-01-22 12:35:32'),(6,'ikea','at','sqlscript5.sql','peta','ikea_at_20160124_1519229726.sql','2016-01-24 09:19:33'),(7,'ikea','at','sqlscript5.sql','peta, drugi put','ikea_at_20160124_1647163673.sql','2016-01-24 11:47:47'),(8,'ikea','at','sqlscript5.sql','sedma','ikea_at_20160125_085855874.sql','2016-01-25 04:59:07'),(9,'ikea','at','sqlscript5.sql','skripta za prikaz podataka iz tablice articles','ikea_at_20160126_1237551791.sql','2016-01-26 08:40:16'),(10,'ikea','at','nova_articles.sql','Skripta za kreiranje Articles tablice','ikea_at_20170113_1401274661.sql','2017-01-13 11:01:50'),(11,'ikea','at','psii.sql','Skripta za insertanje clanka o psima','ikea_at_20170114_1148396766.sql','2017-01-14 09:49:33'),(12,'ikea','at','psii.sql','psi drugi put','ikea_at_20170114_120328459.sql','2017-01-14 10:03:39'),(13,'ikea','at','psii.sql','treci put','ikea_at_20170114_1211419679.sql','2017-01-14 10:11:49'),(14,'ikea','at','psii.sql','cetvrti put','ikea_at_20170114_1217038017.sql','2017-01-14 10:17:19'),(15,'ikea','at','psii.sql','peti put','ikea_at_20170114_1219304044.sql','2017-01-14 10:19:53'),(16,'ikea','at','psii.sql','sesti put','ikea_at_20170114_1227171369.sql','2017-01-14 10:27:25'),(17,'ikea','at','psii.sql','Sigurno bez errora','ikea_at_20170114_1301336711.sql','2017-01-14 11:01:47'),(18,'ikea','at','psii.sql','sesnaesti put','ikea_at_20170114_1756029489.sql','2017-01-14 16:56:15');
 /*!40000 ALTER TABLE `changelog` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-01-14 13:01:47
+-- Dump completed on 2017-01-14 17:56:15
